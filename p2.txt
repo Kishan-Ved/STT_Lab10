@@ -1,0 +1,21 @@
+using System;
+class Program{
+    static int Factorial(int n){
+        if (n==1 || n==0) return 1;
+        else return Factorial(n-1)*n;
+    }
+    static void Main(){
+        for(int i=1;i<=10;i++){
+            Console.WriteLine($"{i}");
+        }
+        Console.WriteLine("Enter a number to find it's factorial");
+        string s;
+        s = Console.ReadLine();
+        s = s.ToLower();
+        while(s!="exit"){
+            Console.WriteLine(Factorial(Convert.ToInt32(s)));
+            Console.WriteLine("Enter the next number, or exit to end");
+            s = Console.ReadLine().ToLower();
+        }
+    }
+}

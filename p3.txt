@@ -1,0 +1,48 @@
+using System;
+class Student{
+    public string Name {get; set;}
+    public int Id {get; set;}
+    public int Marks {get; set;}
+
+    public Student(string name, int id, int marks){
+        Name = name;
+        Id = id;
+        Marks = marks;
+    }
+
+    public string GetGrade(){
+        if(Marks>=85) return "A";
+        else if(Marks>=75) return "B";
+        else if(Marks>=65) return "C";
+        return "D";
+    }
+
+    public virtual void Main(){
+        Console.WriteLine($"Name: {Name}, Id: {Id}, Marks: {Marks}, Grade: {GetGrade()}");
+    }
+}
+
+class StudentIITGN : Student {
+    public string Hostel_Name_IITGN {get; set;}
+
+    public StudentIITGN(string name, int id, int marks, string hostel) : base(name, id, marks) {
+        Hostel_Name_IITGN = hostel;
+    }
+
+    public override void Main(){
+        base.Main();
+        Console.WriteLine($"Hostel: {Hostel_Name_IITGN}");
+    }
+}
+
+class Program{
+    static void Main(){
+        Student s1 = new Student("Kishan Ved", 22110122, 99);
+        Console.WriteLine("Details of object of Student class:");
+        s1.Main();
+
+        StudentIITGN s2 = new StudentIITGN("Rituraj", 22110234, 70, "Emiet");
+        Console.WriteLine("Details of object of StudentIITGN class:");
+        s2.Main();
+    }
+}

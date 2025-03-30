@@ -1,0 +1,15 @@
+/home/kishan/Desktop/STT_Lab10/obj/Debug/net6.0/STT_Lab10.csproj.AssemblyReference.cache
+/home/kishan/Desktop/STT_Lab10/obj/Debug/net6.0/STT_Lab10.GeneratedMSBuildEditorConfig.editorconfig
+/home/kishan/Desktop/STT_Lab10/obj/Debug/net6.0/STT_Lab10.AssemblyInfoInputs.cache
+/home/kishan/Desktop/STT_Lab10/obj/Debug/net6.0/STT_Lab10.AssemblyInfo.cs
+/home/kishan/Desktop/STT_Lab10/obj/Debug/net6.0/STT_Lab10.csproj.CoreCompileInputs.cache
+/home/kishan/Desktop/STT_Lab10/bin/Debug/net6.0/STT_Lab10
+/home/kishan/Desktop/STT_Lab10/bin/Debug/net6.0/STT_Lab10.deps.json
+/home/kishan/Desktop/STT_Lab10/bin/Debug/net6.0/STT_Lab10.runtimeconfig.json
+/home/kishan/Desktop/STT_Lab10/bin/Debug/net6.0/STT_Lab10.dll
+/home/kishan/Desktop/STT_Lab10/bin/Debug/net6.0/ref/STT_Lab10.dll
+/home/kishan/Desktop/STT_Lab10/bin/Debug/net6.0/STT_Lab10.pdb
+/home/kishan/Desktop/STT_Lab10/obj/Debug/net6.0/STT_Lab10.dll
+/home/kishan/Desktop/STT_Lab10/obj/Debug/net6.0/ref/STT_Lab10.dll
+/home/kishan/Desktop/STT_Lab10/obj/Debug/net6.0/STT_Lab10.pdb
+/home/kishan/Desktop/STT_Lab10/obj/Debug/net6.0/STT_Lab10.genruntimeconfig.cache
